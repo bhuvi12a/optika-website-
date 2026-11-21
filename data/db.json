@@ -1,6 +1,17 @@
 {
   "enquiries": [
     {
+      "name": "A",
+      "email": "bhuvanesh@gmail.com",
+      "phone": "7397532847",
+      "organization": "",
+      "serviceType": "General Consultation",
+      "message": " heloo ",
+      "id": "ENQ-1709",
+      "createdAt": "2026-11-21T07:51:51.709Z",
+      "status": "new"
+    },
+    {
       "id": "ENQ-1001",
       "name": "Rajesh Kumar",
       "email": "rajesh.k@innovatetech.com",

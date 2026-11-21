@@ -62,19 +62,19 @@ export const packages = {
   // These are the rates printed in the brochure named "UNPAID".
   // Note: this brochure also prints prices; it does not provide a zero-price diagnostic package list.
   unpaidBrochure: [
-    { name: "Bronze", parameters: 29, mrp: 1000, price: 299, tests: ["Complete Blood Count", "Thyroid Stimulating Hormone", "Random Blood Sugar", "Total Cholesterol"] },
-    { name: "Silver", parameters: 49, mrp: 2500, price: 499, tests: ["Complete Blood Count", "Random Blood Sugar", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Kidney Function Test"] },
-    { name: "Gold", parameters: 69, mrp: 5000, price: 999, tests: ["Complete Blood Count", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus"] },
-    { name: "Platinum", parameters: 79, mrp: 7500, price: 1499, tests: ["Complete Blood Count", "Random Blood Sugar", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus", "Erythrocyte Sedimentation Rate", "Complete Urine Examination"] },
-    { name: "Diamond", parameters: 99, mrp: 10000, price: 1999, tests: ["Complete Blood Picture", "Random Blood Sugar", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus", "Erythrocyte Sedimentation Rate", "Vitamin D", "Vitamin B12", "ESR", "Complete Urine Examination"] },
+    { name: "Bronze", parameters: 29, mrp: 1000, price: 299, tests: ["Complete Blood Count", "Thyroid Stimulating Hormone", "Random Blood Sugar (RBS)", "Total Cholesterol"] },
+    { name: "Silver", parameters: 49, mrp: 2500, price: 499, tests: ["Complete Blood Count", "Random Blood Sugar (RBS)", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Kidney Function Test"] },
+    { name: "Gold", parameters: 70, mrp: 5000, price: 1250, tests: ["Complete Blood Count", "Random Blood Sugar (RBS)", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus"] },
+    { name: "Platinum", parameters: 79, mrp: 7500, price: 2000, tests: ["Complete Blood Count", "Random Blood Sugar (RBS)", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus", "Erythrocyte Sedimentation Rate", "Complete Urine Examination"] },
+    { name: "Diamond", parameters: 99, mrp: 10000, price: 2500, tests: ["Complete Blood Picture", "Random Blood Sugar (RBS)", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus", "Erythrocyte Sedimentation Rate", "Vitamin D", "Vitamin B12", "ESR", "Complete Urine Examination"] },
   ],
   // These are the rates printed in the brochure named "PAID".
   paidBrochure: [
-    { name: "Bronze", parameters: 29, mrp: 1000, price: 299, tests: ["Complete Blood Count", "Thyroid Stimulating Hormone", "Random Blood Sugar", "Total Cholesterol"] },
-    { name: "Silver", parameters: 49, mrp: 2500, price: 499, tests: ["Complete Blood Count", "Random Blood Sugar", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Kidney Function Test"] },
-    { name: "Gold", parameters: 69, mrp: 5000, price: 799, tests: ["Complete Blood Count", "Random Blood Sugar", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus"] },
-    { name: "Platinum", parameters: 79, mrp: 7500, price: 999, tests: ["Complete Blood Count", "Random Blood Sugar", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus", "Erythrocyte Sedimentation Rate", "Complete Urine Examination"] },
-    { name: "Diamond", parameters: 99, mrp: 10000, price: 1499, tests: ["Complete Blood Picture", "Random Blood Sugar", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus", "Erythrocyte Sedimentation Rate", "Vitamin D", "Vitamin B12", "ESR", "Complete Urine Examination"] },
+    { name: "Bronze", parameters: 29, mrp: 1000, price: 299, tests: ["Complete Blood Count", "Thyroid Stimulating Hormone", "Random Blood Sugar (RBS)", "Total Cholesterol"] },
+    { name: "Silver", parameters: 49, mrp: 2500, price: 499, tests: ["Complete Blood Count", "Random Blood Sugar (RBS)", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Kidney Function Test"] },
+    { name: "Gold", parameters: 70, mrp: 5000, price: 1250, tests: ["Complete Blood Count", "Random Blood Sugar (RBS)", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus"] },
+    { name: "Platinum", parameters: 79, mrp: 7500, price: 2000, tests: ["Complete Blood Count", "Random Blood Sugar (RBS)", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus", "Erythrocyte Sedimentation Rate", "Complete Urine Examination"] },
+    { name: "Diamond", parameters: 99, mrp: 10000, price: 2500, tests: ["Complete Blood Picture", "Random Blood Sugar (RBS)", "Kidney Function Test", "Liver Function Test", "Thyroid Stimulating Hormone", "Lipid Profile", "Iron Test", "HbA1c", "Calcium", "Phosphorus", "Erythrocyte Sedimentation Rate", "Vitamin D", "Vitamin B12", "ESR", "Complete Urine Examination"] },
   ],
 };
 

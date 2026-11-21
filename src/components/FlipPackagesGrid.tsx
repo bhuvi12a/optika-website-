@@ -46,12 +46,13 @@ export default function FlipPackagesGrid() {
       {/* Grid of 3D Flip Cards */}
       <div className="flip-cards-grid">
         {items.map((pkg, idx) => {
-          // Alternating color theme: Green card vs White card
-          const isGreen = idx % 2 === 1;
+          // Alternating signature colors matching the homepage feature cards:
+          // Green: #28ae70 -> #168a60 | Blue: #1b759c -> #0f4d68
+          const isGreen = idx % 2 === 0;
 
           return (
             <div key={pkg.name + activeTier} className="flip-card-perspective-container">
-              <div className={`flip-card-inner ${isGreen ? "theme-green-flip" : "theme-white-flip"}`}>
+              <div className={`flip-card-inner ${isGreen ? "theme-green-flip" : "theme-blue-flip"}`}>
                 
                 {/* ================= FRONT SIDE ================= */}
                 <div className="flip-card-face flip-card-front">

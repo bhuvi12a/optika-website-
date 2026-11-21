@@ -6,7 +6,6 @@ import { CheckCircle2 } from "lucide-react";
 export default function HeroHandoverSection() {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const [progressPct, setProgressPct] = useState(0);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -87,19 +86,18 @@ export default function HeroHandoverSection() {
       const currentPos = windowH - rect.top;
       const rawProgress = Math.min(Math.max(currentPos / totalDist, 0), 1);
 
-      setProgressPct(Math.round(rawProgress * 100));
       drawFrame(rawProgress);
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
-    window.addEventListener("resize", () => drawFrame(progressPct / 100));
+    window.addEventListener("resize", () => drawFrame(0));
 
     handleScroll();
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [progressPct]);
+  }, []);
 
   return (
     <div ref={containerRef} className="handover-pinned-wrapper frameless">

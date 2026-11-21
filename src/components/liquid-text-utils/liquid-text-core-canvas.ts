@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export function defaultMaxDpr(): number {
-  return typeof window !== "undefined" ? Math.min(2.5, window.devicePixelRatio || 1) : 1;
+  return typeof window !== "undefined" ? Math.min(1.5, window.devicePixelRatio || 1) : 1;
 }
 
 export function sizeCanvas(
