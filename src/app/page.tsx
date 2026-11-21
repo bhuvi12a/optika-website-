@@ -109,89 +109,89 @@ export default function HomePage() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {/* Card 1: About */}
+              {/* Card 1: About (Logo Green Theme) */}
               <Link
                 href="/about"
-                className="group bg-white p-7 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-emerald-500 transition-all duration-300 flex flex-col justify-between"
+                className="group bg-gradient-to-br from-[#28ae70] to-[#168a60] text-white p-7 rounded-3xl border border-emerald-400/30 shadow-lg shadow-emerald-950/15 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-emerald-600 group-hover:text-white transition-all">
+                  <div className="w-12 h-12 rounded-2xl bg-white/20 backdrop-blur-sm text-white flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-white group-hover:text-[#168a60] transition-all">
                     <Building2 size={24} />
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-700 transition">
+                  <h3 className="text-xl font-bold text-white mb-2">
                     About Optika
                   </h3>
-                  <p className="text-xs text-slate-500 leading-relaxed">
+                  <p className="text-xs text-emerald-100 leading-relaxed">
                     Learn about our founder, mission, accredited medical partnerships, and clinical HQ in Hosur.
                   </p>
                 </div>
-                <div className="mt-6 flex items-center gap-2 text-xs font-bold text-emerald-600">
+                <div className="mt-6 pt-4 border-t border-white/20 flex items-center justify-between text-xs font-bold text-white">
                   <span>Read Profile</span>
                   <ChevronRight size={14} className="group-hover:translate-x-1 transition" />
                 </div>
               </Link>
 
-              {/* Card 2: Services */}
+              {/* Card 2: Services (Logo Blue Theme) */}
               <Link
                 href="/services"
-                className="group bg-white p-7 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-sky-500 transition-all duration-300 flex flex-col justify-between"
+                className="group bg-gradient-to-br from-[#1b759c] to-[#0f4d68] text-white p-7 rounded-3xl border border-sky-400/30 shadow-lg shadow-sky-950/15 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-sky-600 group-hover:text-white transition-all">
+                  <div className="w-12 h-12 rounded-2xl bg-white/20 backdrop-blur-sm text-white flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-white group-hover:text-[#1b759c] transition-all">
                     <Microscope size={24} />
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-sky-700 transition">
+                  <h3 className="text-xl font-bold text-white mb-2">
                     Services
                   </h3>
-                  <p className="text-xs text-slate-500 leading-relaxed">
+                  <p className="text-xs text-sky-100 leading-relaxed">
                     Explore our alternating bento cards for workplace check-ups, diagnostics, audiometry, and optics.
                   </p>
                 </div>
-                <div className="mt-6 flex items-center gap-2 text-xs font-bold text-sky-600">
+                <div className="mt-6 pt-4 border-t border-white/20 flex items-center justify-between text-xs font-bold text-white">
                   <span>Explore Catalog</span>
                   <ChevronRight size={14} className="group-hover:translate-x-1 transition" />
                 </div>
               </Link>
 
-              {/* Card 3: Health Packages */}
+              {/* Card 3: Health Packages (Logo Green Theme) */}
               <Link
                 href="/packages"
-                className="group bg-white p-7 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-emerald-500 transition-all duration-300 flex flex-col justify-between"
+                className="group bg-gradient-to-br from-[#28ae70] to-[#168a60] text-white p-7 rounded-3xl border border-emerald-400/30 shadow-lg shadow-emerald-950/15 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-emerald-600 group-hover:text-white transition-all">
+                  <div className="w-12 h-12 rounded-2xl bg-white/20 backdrop-blur-sm text-white flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-white group-hover:text-[#168a60] transition-all">
                     <ShieldCheck size={24} />
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-700 transition">
+                  <h3 className="text-xl font-bold text-white mb-2">
                     Health Packages
                   </h3>
-                  <p className="text-xs text-slate-500 leading-relaxed">
+                  <p className="text-xs text-emerald-100 leading-relaxed">
                     Interactive 3D flip cards for Bronze, Silver, Gold, Platinum, and Diamond corporate health tiers.
                   </p>
                 </div>
-                <div className="mt-6 flex items-center gap-2 text-xs font-bold text-emerald-600">
+                <div className="mt-6 pt-4 border-t border-white/20 flex items-center justify-between text-xs font-bold text-white">
                   <span>View Package Tiers</span>
                   <ChevronRight size={14} className="group-hover:translate-x-1 transition" />
                 </div>
               </Link>
 
-              {/* Card 4: Corporate Camps */}
+              {/* Card 4: Corporate Camps (Logo Blue Theme) */}
               <Link
                 href="/corporate-camps"
-                className="group bg-white p-7 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-emerald-500 transition-all duration-300 flex flex-col justify-between"
+                className="group bg-gradient-to-br from-[#1b759c] to-[#0f4d68] text-white p-7 rounded-3xl border border-sky-400/30 shadow-lg shadow-sky-950/15 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-emerald-600 group-hover:text-white transition-all">
+                  <div className="w-12 h-12 rounded-2xl bg-white/20 backdrop-blur-sm text-white flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-white group-hover:text-[#1b759c] transition-all">
                     <CalendarCheck size={24} />
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-700 transition">
+                  <h3 className="text-xl font-bold text-white mb-2">
                     Corporate Camps
                   </h3>
-                  <p className="text-xs text-slate-500 leading-relaxed">
+                  <p className="text-xs text-sky-100 leading-relaxed">
                     Host an on-site health camp with zero employee downtime. Submit your booking form directly.
                   </p>
                 </div>
-                <div className="mt-6 flex items-center gap-2 text-xs font-bold text-emerald-600">
+                <div className="mt-6 pt-4 border-t border-white/20 flex items-center justify-between text-xs font-bold text-white">
                   <span>Schedule Camp</span>
                   <ChevronRight size={14} className="group-hover:translate-x-1 transition" />
                 </div>

@@ -1462,60 +1462,62 @@ a{color:inherit;text-decoration:none}
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* WHITE CARD VARIANT */
+/* WHITE / BLUE CARD VARIANT (Logo Theme) */
 .card-theme-white {
-  background: #ffffff;
-  border: 1px solid #edf2f7;
-  box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.05), 0 4px 6px -2px rgba(15, 23, 42, 0.02);
+  background: linear-gradient(145deg, #ffffff 0%, #f0f7fa 100%);
+  border: 1.5px solid #b9d8e7;
+  box-shadow: 0 10px 30px -5px rgba(27, 117, 156, 0.08), 0 4px 6px -2px rgba(27, 117, 156, 0.04);
 }
 
 .card-theme-white:hover {
   transform: translateY(-7px);
-  border-color: #cbd5e1;
-  box-shadow: 0 25px 45px -10px rgba(15, 23, 42, 0.12);
+  border-color: #1b759c;
+  box-shadow: 0 25px 45px -10px rgba(27, 117, 156, 0.22);
 }
 
 .card-theme-white .bento-title {
-  color: #0f172a;
+  color: #0c3647;
 }
 
 .card-theme-white .bento-desc {
-  color: #64748b;
+  color: #4a6875;
 }
 
 .card-theme-white .bento-feature-list li {
-  color: #334155;
+  color: #1a4254;
 }
 
 .card-theme-white .bento-link-action {
-  color: #0284c7;
+  color: #1b759c;
+  font-weight: 800;
 }
 
 .card-theme-white .bento-btn-quote {
-  background: #0284c7;
+  background: #1b759c;
   color: #ffffff;
 }
 
 .card-theme-white .bento-btn-quote:hover {
-  background: #0369a1;
+  background: #135674;
 }
 
 .card-theme-white .bento-num-tag {
-  background: #f1f5f9;
-  color: #94a3b8;
+  background: #e1eef4;
+  color: #1b759c;
+  font-weight: 800;
 }
 
-/* GREEN / EMERALD GRADIENT VARIANT */
+/* GREEN / EMERALD GRADIENT VARIANT (Logo Theme) */
 .card-theme-green {
-  background: linear-gradient(145deg, #10b981 0%, #059669 100%);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(145deg, #28ae70 0%, #168a60 100%);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   color: #ffffff;
-  box-shadow: 0 15px 35px -5px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 15px 35px -5px rgba(40, 174, 112, 0.35);
 }
 
 .card-theme-green:hover {
   transform: translateY(-7px);
-  box-shadow: 0 25px 50px -10px rgba(5, 150, 105, 0.45);
+  box-shadow: 0 25px 50px -10px rgba(22, 138, 96, 0.45);
 }
 
 .card-theme-green .bento-title {
@@ -1548,7 +1550,7 @@ a{color:inherit;text-decoration:none}
 
 .card-theme-green .bento-btn-quote {
   background: #ffffff;
-  color: #059669;
+  color: #168a60;
   font-weight: 800;
 }
 
@@ -1808,54 +1810,54 @@ a{color:inherit;text-decoration:none}
   align-items: center;
 }
 
-/* ---------------- WHITE CARD THEME ---------------- */
+/* ---------------- WHITE / BLUE CARD THEME (Logo Palette) ---------------- */
 .theme-white-flip .flip-card-front {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05);
+  background: linear-gradient(145deg, #ffffff 0%, #f0f7fa 100%);
+  border: 1.5px solid #b9d8e7;
+  box-shadow: 0 10px 25px -5px rgba(27, 117, 156, 0.08);
 }
 
 .theme-white-flip .package-tag-badge {
-  background: #f0fdf4;
-  color: #10b981;
-  border: 1px solid #bbf7d0;
+  background: #e1eef4;
+  color: #1b759c;
+  border: 1px solid #b9d8e7;
 }
 
 .theme-white-flip .param-pill {
-  background: #f1f5f9;
-  color: #475569;
+  background: #eef5f8;
+  color: #1b759c;
 }
 
 .theme-white-flip .price-amount {
-  color: #0f172a;
+  color: #0c3647;
 }
 
 .theme-white-flip .flip-tests-body {
-  border-top: 1px solid #f1f5f9;
+  border-top: 1px solid #e1eef4;
 }
 
 .theme-white-flip .tests-checklist li {
-  color: #334155;
+  color: #1a4254;
 }
 
 .theme-white-flip .check-bullet {
-  color: #10b981;
+  color: #1b759c;
 }
 
 .theme-white-flip .flip-footer-hint {
-  color: #0284c7;
-  border-top: 1px dashed #e2e8f0;
+  color: #1b759c;
+  border-top: 1px dashed #b9d8e7;
 }
 
 .theme-white-flip .flip-card-back {
   background: #ffffff;
-  border: 2px solid #0284c7;
-  box-shadow: 0 20px 40px -10px rgba(2, 132, 199, 0.15);
+  border: 2px solid #1b759c;
+  box-shadow: 0 20px 40px -10px rgba(27, 117, 156, 0.2);
 }
 
 .theme-white-flip .expert-avatar-box {
-  background: #e0f2fe;
-  color: #0284c7;
+  background: #e1eef4;
+  color: #1b759c;
 }
 
 .theme-white-flip .btn-flip-chat {
@@ -1868,16 +1870,16 @@ a{color:inherit;text-decoration:none}
   color: #0f172a;
 }
 
-/* ---------------- GREEN CARD THEME ---------------- */
+/* ---------------- GREEN CARD THEME (Logo Palette) ---------------- */
 .theme-green-flip .flip-card-front {
-  background: linear-gradient(145deg, #10b981 0%, #059669 100%);
+  background: linear-gradient(145deg, #28ae70 0%, #168a60 100%);
   color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 15px 35px -5px rgba(16, 185, 129, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 15px 35px -5px rgba(40, 174, 112, 0.35);
 }
 
 .theme-green-flip .package-tag-badge {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.22);
   color: #ffffff;
 }
 
@@ -1901,11 +1903,12 @@ a{color:inherit;text-decoration:none}
 
 .theme-green-flip .savings-badge {
   background: #ffffff;
-  color: #059669;
+  color: #168a60;
+  font-weight: 800;
 }
 
 .theme-green-flip .flip-tests-body {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .theme-green-flip .tests-label {
@@ -1926,19 +1929,19 @@ a{color:inherit;text-decoration:none}
 }
 
 .theme-green-flip .flip-card-back {
-  background: linear-gradient(145deg, #0f172a 0%, #1e293b 100%);
+  background: linear-gradient(145deg, #0e3d2a 0%, #08261a 100%);
   color: #ffffff;
-  border: 1px solid #334155;
+  border: 1px solid #168a60;
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4);
 }
 
 .theme-green-flip .expert-avatar-box {
-  background: #10b981;
+  background: #28ae70;
   color: #ffffff;
 }
 
 .theme-green-flip .btn-flip-chat {
-  background: #10b981;
+  background: #28ae70;
   color: #ffffff;
 }
 
