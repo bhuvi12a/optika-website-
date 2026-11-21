@@ -1,0 +1,34 @@
+{
+  "enquiries": [
+    {
+      "id": "ENQ-1001",
+      "name": "Rajesh Kumar",
+      "email": "rajesh.k@innovatetech.com",
+      "phone": "+91 98450 12345",
+      "organization": "Innovate Tech Labs",
+      "serviceType": "Corporate Health Check-up",
+      "message": "Requesting a quote for 150 employees in Hosur SEZ.",
+      "createdAt": "2026-11-20T11:41:49.338Z",
+      "status": "contacted"
+    }
+  ],
+  "campBookings": [
+    {
+      "id": "CAMP-2001",
+      "companyName": "TVS Motor Vendor Park",
+      "contactPerson": "Anand M",
+      "contactPhone": "+91 94432 55678",
+      "contactEmail": "anand@tvsvendors.in",
+      "location": "Bathalapalli Village, Hosur",
+      "estimatedEmployees": 250,
+      "preferredDate": "2026-12-10",
+      "packagesInterested": [
+        "Silver",
+        "Eye Check-up"
+      ],
+      "notes": "Need two optometrist counters and ECG machine.",
+      "createdAt": "2026-11-20T11:41:49.338Z",
+      "status": "confirmed"
+    }
+  ]
+}
