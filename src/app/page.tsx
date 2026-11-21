@@ -37,11 +37,11 @@ export default function HomePage() {
                 </div>
                 <div className="liquid-brand-center">
                   <LiquidText
-                    text="OPTIKA"
+                    text="OPTIKA HEALTHCARE"
                     color="#28ae70"
                     highlight="#86efac"
                     accentColor="#168a60"
-                    fontSize={170}
+                    fontSize={110}
                     fontWeight={800}
                     fontFamily="'Manrope', sans-serif"
                     viscosity={0.5}

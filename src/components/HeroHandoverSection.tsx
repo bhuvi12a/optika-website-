@@ -105,30 +105,6 @@ export default function HeroHandoverSection() {
     <div ref={containerRef} className="handover-pinned-wrapper frameless">
       <div className="handover-viewport-card frameless">
         <canvas ref={canvasRef} className="handover-canvas" />
-
-        {/* Natural Floating Phase Status Badge */}
-        <div className="handover-status-badge">
-          <span className="handover-pulse-dot" />
-          <div className="handover-status-text">
-            {progressPct < 30 && <strong>Doctor verifying Medical Checkup Report</strong>}
-            {progressPct >= 30 && progressPct < 75 && (
-              <strong>Handing over certified report to employee</strong>
-            )}
-            {progressPct >= 75 && (
-              <strong>
-                <CheckCircle2 size={15} className="inline mr-1 text-emerald-600" />
-                Handover Complete: Consultation Successful
-              </strong>
-            )}
-            <small>Scroll down to advance handover · Scroll up to reverse</small>
-          </div>
-          <div className="handover-progress-pill">{progressPct}%</div>
-        </div>
-
-        {/* Clean Bottom Clinical Bar (without SCROLL CONTROLLED tag) */}
-        <div className="handover-bottom-bar">
-          <span>Corporate Camp Session · Certified Optical &amp; Diagnostic Handover</span>
-        </div>
       </div>
     </div>
   );
