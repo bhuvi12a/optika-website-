@@ -32,18 +32,15 @@ export default function HomePage() {
           <ContainerScroll
             titleComponent={
               <div className="hero-scroll-title">
-                <div className="eyebrow justify-center mb-3">
-                  <span className="pulse-dot" /> OPTICAL &amp; DIAGNOSTICS
-                </div>
                 <div className="liquid-brand-center">
                   <LiquidText
                     text="OPTIKA HEALTHCARE"
                     color="#28ae70"
                     highlight="#86efac"
                     accentColor="#168a60"
-                    fontSize={110}
-                    fontWeight={800}
-                    fontFamily="'Manrope', sans-serif"
+                    fontSize={220}
+                    fontWeight={900}
+                    fontFamily="'Manrope', 'Outfit', sans-serif"
                     viscosity={0.5}
                     className="hero-liquid-title"
                   />
