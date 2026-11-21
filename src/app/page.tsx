@@ -18,7 +18,6 @@ import Footer from "@/components/Footer";
 import HeroHandoverSection from "@/components/HeroHandoverSection";
 import MedicalBackgroundArt from "@/components/MedicalBackgroundArt";
 import LiquidText from "@/components/ui/liquid-text";
-import { Component as WhatsAppButton3D } from "@/components/ui/3d-button";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import { contact } from "@/data/site";
 
@@ -55,15 +54,18 @@ export default function HomePage() {
                 <p className="hero-scroll-p">
                   Corporate health camps, precision eye check-ups, and certified diagnostic services that make routine health monitoring seamless.
                 </p>
-                <div className="hero-actions justify-center items-center">
-                  <WhatsAppButton3D
-                    textState1="Chat on WhatsApp"
-                    textState2="Chat With Us"
-                    message="Hello Optika Healthcare, I would like to enquire about your corporate health camps and services."
-                  />
-                  <Link className="btn btn-outline" href="/corporate-camps">
+                <div className="hero-actions justify-center">
+                  <Link className="btn btn-primary" href="/corporate-camps">
                     Plan a Corporate Camp <ArrowRight size={17} />
                   </Link>
+                  <a
+                    href={`https://wa.me/${contact.phoneRaw}?text=${encodeURIComponent("Hello Optika Healthcare, I would like to enquire about your services.")}`}
+                    className="btn btn-outline flex items-center gap-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Chat on WhatsApp <ArrowRight size={16} />
+                  </a>
                   <Link className="btn btn-outline" href="/services">
                     Explore Services
                   </Link>
@@ -224,11 +226,14 @@ export default function HomePage() {
               <Link href="/contact" className="btn btn-white font-extrabold text-slate-900 py-3.5 px-6 rounded-xl">
                 Send an Enquiry
               </Link>
-              <WhatsAppButton3D
-                textState1="Chat on WhatsApp"
-                textState2="Chat With Us"
-                message="Hello Optika Healthcare, I would like to get a quotation for an on-site corporate health camp."
-              />
+              <a
+                href={`https://wa.me/${contact.phoneRaw}?text=${encodeURIComponent("Hello Optika Healthcare, I would like to enquire about your services.")}`}
+                className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-bold py-3.5 px-6 rounded-xl transition duration-200 flex items-center gap-2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Chat on WhatsApp <ArrowRight size={16} />
+              </a>
             </div>
           </div>
         </section>
